@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".logincreatenewaccount"
+    android:background="#090968"
+    android:ignore="MissingClass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="301dp"
+            android:layout_height="255dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo1" />
+
+        <Button
+            android:layout_width="281dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_background"
+            android:padding="15dp"
+            android:text="CREATE ACCOUNT"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_width="275dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_background"
+            android:padding="15dp"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
